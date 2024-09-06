@@ -1,0 +1,12 @@
+name: TripPlanner
+title: TripPlanner
+username: paulregular
+account: paulregular
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 12629557
+bundleId: 9070488
+url: https://paulregular.shinyapps.io/TripPlanner/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
