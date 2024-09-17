@@ -75,7 +75,7 @@ selectInput("method", "Select TSP method",
                         "nn", 
                         "repetitive_nn",
                         "two_opt"),
-            selected = "arbitrary_insertion")
+            selected = "farthest_insertion")
 
 get_locs <- reactive({
   file <- input$file
