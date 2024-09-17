@@ -50,7 +50,7 @@ convert_to_utm <- function(data) {
 solve_tsp <- function(data, method = NULL) {
   dist_matrix <- dist(data[, c("X", "Y")])
   tsp <- TSP(dist_matrix)
-  solution <- solve_TSP(tsp, method = method)
+  solution <- solve_TSP(tsp, method = method, control = list(start = 1))
   data[solution, ]
 }
 ```
